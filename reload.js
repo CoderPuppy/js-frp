@@ -1,0 +1,1 @@
+function reload() {for(var k in require.cache){delete require.cache[k]} fn = require('./fn'); fn.vec = require('./fn-vec'); fn.arr = require('./fn-array'); fn.obj = require('./fn-object'); /*fn.fn = require('./fn-fn')*/ frp = require('./frp'); }
